@@ -1,0 +1,21 @@
+.dv{
+    min-height: 100vh;
+    height: auto;
+    background-image: url("../../../assets/backg1.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+@media screen and (max-width: 600px) {
+    .dv{
+        padding:100px 20px 20px 20px;
+    }
+    .hg{
+        height: 40vh;
+        overflow-y: scroll;
+    }
+}

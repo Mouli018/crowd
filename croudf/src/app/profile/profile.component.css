@@ -1,0 +1,50 @@
+#profile{
+    min-height: 100vh;
+    height: auto;
+    background-image: url("../../assets/backg1.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+    background-size: cover;
+    padding-top: 110px;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    background-color: white;
+}
+#prs{
+    height: 90vh;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 5px solid white;
+    padding: 8px;
+    overflow: hidden;
+}
+#gg{
+    height: 100%;
+    overflow: scroll;
+}
+@media screen and (max-width: 600px) {
+    #profile{
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+    }
+    #prs{
+        width: 90%;
+    }
+    .det{
+        padding:20px;
+    }
+}
+
+.bxx{
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}

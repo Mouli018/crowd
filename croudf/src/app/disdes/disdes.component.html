@@ -1,0 +1,9 @@
+<div class="container ll" id = "box" [routerLink]="['/displayd']" [state]="{ project: prgi }">
+    <h2 class="ll">
+        {{prgi?.Title}}
+    </h2>
+    <p class="ll">
+        {{prgi?.Summary }}
+    </p>
+</div>
+<button type="button" class="btn btn-primary btn-lg" [routerLink]="['/displayd']" [state]="{ project: prgi }">View Project</button>

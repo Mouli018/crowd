@@ -1,0 +1,11 @@
+h1{
+    font-size: 80px
+}
+div{
+    width: 40%;
+}
+@media screen and (max-width: 600px) {
+    .bx{
+        display: none;
+    }
+}
