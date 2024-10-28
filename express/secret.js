@@ -1,5 +1,4 @@
-
 module.exports = {
     jwtSecret: "your secret key",
-    mongourl: "mongodb://localhost:27017/moulidb"
+    mongourl: process.env.MONGO_URI || "mongodb+srv://Mouli:0000@cluster0.nv4xs.mongodb.net/crowd?retryWrites=true&w=majority"
 };
